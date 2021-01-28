@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Header from '../components/header'
 import Hero from '../components/hero'
+import Image from 'next/image'
 export default function Home() {
   return (
     <>
@@ -14,16 +15,19 @@ export default function Home() {
             <div className="relative bg-gray-50 pt-16 sm:pt-24 lg:pt-32">
               <div className="mx-auto max-w-md px-4 text-center sm:px-6 sm:max-w-3xl lg:px-8 lg:max-w-7xl">
                 <div>
-                  <h2 className="text-base font-semibold tracking-wider text-cyan-600 uppercase">Serverless</h2>
+                  <h2 className="text-base font-semibold tracking-wider text-cyan-600 uppercase">Portainer</h2>
                   <p className="mt-2 text-3xl font-extrabold text-gray-900 tracking-tight sm:text-4xl">
-                    No server? No problem.
+                    Visualize Your Containers
             </p>
                   <p className="mt-5 max-w-prose mx-auto text-xl text-gray-500">
-                    Phasellus lorem quam moestie id quisque diam aenean nulla in. Accumsan in quis quis nunc, ullamcorper malesuada. Eleifend condimentum id viverra nulla.
+                    We can help you set up Portainer so you can manage your environment, deploy applications, monitor application performance, triage problems and control who can do what.
             </p>
                 </div>
                 <div className="mt-12 -mb-10 sm:-mb-24 lg:-mb-80">
-                  <img className="rounded-lg shadow-xl ring-1 ring-black ring-opacity-5" src="https://tailwindui.com/img/component-images/green-project-app-screenshot.jpg" />
+                  <Image src="/portainer.png"
+                    alt="Picture of the author"
+                    width={1000}
+                    height={500} className="object-cover " />
                 </div>
               </div>
             </div>
