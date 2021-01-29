@@ -1,7 +1,6 @@
 export const blogData = [
   {
-    image:
-      'https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80',
+    image: '/docker.png',
     name: 'What is Docker Swarm?',
     type: 'Article',
     desc:
@@ -10,8 +9,7 @@ export const blogData = [
     readTime: 6,
   },
   {
-    image:
-      'https://images.unsplash.com/photo-1547586696-ea22b4d4235d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80',
+    image: '/node.png',
     name: 'Spinning up a node image',
     type: 'Video',
     desc:
@@ -20,8 +18,7 @@ export const blogData = [
     readTime: 10,
   },
   {
-    image:
-      'https://images.unsplash.com/photo-1492724441997-5dc865305da7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80',
+    image: '/case.png',
     name: 'A containerization case study with Docker',
     type: 'Case Study',
     desc:
