@@ -20,10 +20,10 @@ export default function Features() {
           <div className="mt-12 -mb-10 sm:-mb-24 lg:-mb-80">
             <Image
               src="/portainer.png"
-              alt="Picture of the author"
+              alt="portainer"
               width={1000}
               height={500}
-              className="object-cover "
+              className="object-cover"
             />
           </div>
         </div>
